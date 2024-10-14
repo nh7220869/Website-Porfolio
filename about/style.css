@@ -1,0 +1,169 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #5e5b5b;
+    color: rgb(250, 243, 243);
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 60px; 
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 10px; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.0rem; 
+    text-align: center;
+    color: #F4CE14;
+}
+
+header ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #F4CE14;
+    font-size: 1.2rem; 
+}
+
+header ul li a:hover {
+    border-bottom: 2px solid #adabab;
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #333;
+    text-shadow: 0px 0px 15px #f4ce14;
+}
+
+
+.intro{
+    text-align: center;
+    font-size: 7cm;
+    text-shadow: 0px 0px 15px #000000;
+}
+
+footer {
+    background-color: #2b2727;
+    color: #F4CE14; 
+    padding: 20px; 
+    text-align: center;
+    position: relative; 
+    margin-top: 0cm;
+}
+
+
+footer .text {
+    margin: 10px 0; 
+    font-size: 1rem; 
+}
+footer .text p {
+    margin: 5px 0; 
+}
+
+@media (max-width: 600px) {
+    footer .text p {
+        font-size: 0.9rem; 
+    }
+}
+
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #faeabf;
+}
+
+ Profile Photo Section 
+.profile-photo img {
+    margin-left: auto;  
+    margin-right: auto;
+    display: block;
+    height: 8cm;
+    width: 8cm;
+    border: 3px solid black;
+    border-radius: 50%;
+    margin-top: 1.5cm;
+}
+
+
+.paragraph1 p, .paragraph2 p {
+    font-size: 1.5rem;
+    text-shadow: 0px 0px 15px #000000;
+    padding: 5%; 
+    line-height: 1.6;
+    color: #000000;
+}
+
+
+.paragraph1 p {
+    margin-left: 14%; 
+    margin-right: 10%;
+    margin-top: -7cm; 
+}
+
+ 
+.paragraph2 p {
+    margin-left: 14%;
+    margin-right:10%;
+    margin-top: -2cm;
+}
+
+ 
+@media (max-width: 768px) {
+    .paragraph1 p, .paragraph2 p {
+        margin-left: 5%; 
+        margin-right: 5%;
+        font-size: 1.2rem;
+        margin-top: 0; 
+        padding: 5%;
+    }
+
+    .profile-photo img {
+        height: 6cm;
+        width: 6cm;
+        margin-top: 1cm;
+        
+    }
+}
+
+@media (max-width: 480px) {
+    .paragraph1 p, .paragraph2 p {
+        margin-left: 3%; 
+        margin-right: 3%;
+        font-size: 1rem; 
+        padding: 3%;
+    }
+
+    .profile-photo img {
+        height: 5cm;
+        width: 5cm;
+    }
+}
